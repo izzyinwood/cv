@@ -1,0 +1,146 @@
+/******************************** HTML ********************************/
+body {
+  margin: 0;
+  text-align: center;
+  font-family: Montserrat;
+  color: #40514e;
+}
+
+h1 {
+  margin: 30px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 6.25rem;
+  line-height: 3;
+  color: #66BFBF;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: bold;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 30px auto;
+}
+
+hr {
+  width: 3%;
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: thick;
+  margin: 100px auto;
+  opacity: 5;
+}
+
+/******************************** CLASSES ********************************/
+/***** STRUCTURE *****/
+.main {
+  background-color: #EAF6F6;
+  position: relative;
+  padding-top: 5%;
+}
+
+.skill-row {
+  width: 25%;
+  height: 25%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.bottom-container {
+  display: inline-block;
+  width: 50%;
+  margin: 50px auto;
+}
+
+.footer {
+  background-color: #66BFBF;
+  height: 200px;
+  margin: 50px auto 0 auto;
+}
+
+/***** TEXT *****/
+.profile {
+  width: 50%;
+  margin: auto;
+}
+
+.footer-link {
+  color: #11999E;
+  margin: 50px 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.footer-name {
+  color: white;
+  margin-top: 50px;
+}
+
+.contact-me {
+  margin-top: 110px;
+}
+
+/***** IMAGES *****/
+
+.portrait {
+  width: 200px;
+  margin-top: 50px;
+}
+
+.skill-image1 {
+  width: 20%;
+  margin-right: 30px;
+  float: left;
+}
+
+.skill-image2 {
+  width: 20%;
+  margin-left: 10px;
+  float: right;
+}
+
+.top-cloud {
+  position: absolute;
+  left: 60%;
+  top: 15%;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 27%;
+  bottom: 50%;
+}
+
+.mountain {
+  display: inline;
+}
+
+/******************************** BUTTONS ********************************/
+.btn {
+  background: #11cdd4;
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  line-height: 5;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
